@@ -22,7 +22,7 @@
           src = pkgs.fetchgit {
             url = "https://github.com/hudson-trading/slang-server.git";
             fetchSubmodules = true;
-            hash = "sha256-Up+dD8zT+c5ESWNaEqoffgtmr42Fc8DIt0ISESkx4Zw=";
+            hash = "sha256-5BWyuutXdN0jflSi3vgNzHxHCAa87cNVriaGRchibrE=";
           };
 
           buildInputs = with pkgs; [
